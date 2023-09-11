@@ -1,0 +1,27 @@
+.arch-main{
+    padding: 5%;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.arch-flipbook{
+    position: relative;
+    padding-top: max(60%,324px);
+    width:80%;
+    height:0;
+    margin: auto;
+}
+
+.arch-heading {
+    text-align: center;
+    padding: 32px;
+    color: #484965;
+    position: relative;
+    font-weight: normal;
+    font-size:50px;
+    opacity: 0.6;
+    margin: auto;
+    max-width: 600px;
+    line-height: 1.8;
+  }

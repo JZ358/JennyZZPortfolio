@@ -1,0 +1,171 @@
+.section3{
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    margin-top: 80px;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.section3-heading{
+    color: #484965;
+    text-align: center;
+    font-size:50px;
+    opacity: 0.6;
+}
+
+/*to fix-- want to display horizontally across wider screen*/
+.sec3-container{
+    display: grid;
+    align-self: center;
+    place-items: center;
+    margin-top: 50px;
+    width: 80%;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 15vh;
+    row-gap: 10vh;
+ }
+
+ .round-border2{
+  width:50%;
+  border: 2px solid rgba(0,0,0,0.2);
+  border-radius: 5px;
+  border-style: dotted solid solid dotted ;
+  flex: 1;
+  height: 500px;
+  margin-left: 50px;
+  margin-top: 80px;
+  max-width: 1000px;
+ }
+ /* Colored panel */
+ .panel {
+   background-color: #c7b9b0;
+   color: #484965;
+   padding: 1em;
+   width: 120%;
+   border-radius: 50%;
+   transition: 0.3s;
+   box-shadow: 12px 12px 10px 1px rgb(182, 159, 159);
+   .faded {
+      /* Use a text color the same as the background colour of the panel will mean the fade effect matches the background correctly*/
+     color: #f9f5f1;
+   }
+ }
+
+.panel:hover{
+  transform: scale(1.1, 1.1);
+  transition: 0.3s;
+  color: #484965;
+} 
+
+/* Scale images down if they're too large for available space*/
+ img {
+   max-width: 100%;
+ }
+
+.project-img {
+  border-radius: 5%;
+  scale: 90%;
+  box-shadow: 1px 5px 5px 1px rgb(122, 117, 117);
+}
+
+
+ .button-project {
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: inherit;
+  transition: 0.3s;
+  margin-left:10px;
+  opacity: 0.8;
+ }
+
+ .button-project:hover {
+  
+  color: white;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.button-project1 {
+    background-image: url('https://lh3.googleusercontent.com/KzRsEgeb1omz95iYwXbDFFpfOzNww_3dLorYLgPwnZdasg3yA8qNNs18VI6FRSMJLsSi4cFjwKZY6UhhZLU_2fvvrzoykrbbOJLVqhEZ0vM0MDcjj5PVp__UJYqhaPymchoQ5Znl=w2400');
+    color: #aeaebb; 
+    background-size: cover;
+    width: 275px;
+    height: 200px;
+    font-size: 2rem;
+    opacity: 0.9;
+    transition: 0.3s;
+    flex:1;
+    border-radius: 10px;
+
+  }
+
+.button-project1:hover {
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  opacity: 1;
+  width: 280px;
+}
+
+
+.button-project2 {
+    background-image: url('https://lh3.googleusercontent.com/QksFQ56QmEkCTzaYDmE3owtv4rCMYihSHnlcHnOFbshe45wbULck5t4OtlbbTDkL6ua2wzoa44opAJxihgnlEyZqIxGUHdTRgqIRyuJjGAx7j8v3hHbvIc6O4DUydBlFV4HtOYO1=w2400');
+    color: #aeaebb; 
+    background-size: cover;
+    width: 275px;
+    height: 200px;
+    font-size: 2rem;
+    opacity: 0.8;
+    flex:1;
+    transition: 0.3s;
+    border-radius: 10px;
+  }
+
+  .button-project2:hover {
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    opacity: 1;
+    width: 280px;
+  }
+
+  .button-project3 {
+    background-image: url('https://lh3.googleusercontent.com/ej2YbePkaQPKwBjTaBxTYja_p0w7ecGSKZ18pRhY2rp7DgNvMFd-4EAgUGezrJV0tbWUhIbL4o8sCeuxJTe47tO7rTv2h3W1Gi6xOFvfEN1uOP2yk2Ad5QcPSsyv5i3EbbAM4kcX=w2400');
+    color: #aeaebb; 
+    background-size: cover;
+    width: 275px;
+    height: 200px;
+    font-size: 2rem;
+    opacity: 0.8;
+    flex:1;
+    transition: 0.3s;
+    border-radius: 10px;
+  }
+
+  .button-project3:hover {
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    opacity:1;
+    width: 280px;
+  }
+
+  .button-project4 {
+    background-image: url('https://lh3.googleusercontent.com/I1ZOy3VMrkXxWM2IWTsGbi-r0ViKmLH7zSIs_Wvu9P3S-eO-Mk1szAwHIsGyzNKwC-pcANidWjc9Y04Qy0CGAVnHPef_ZtpLKvEpOohQJL8ieA07AJKSD6eQHC4K2zkr1s1c5viC=w2400');
+    color: #aeaebb; 
+    background-size: cover;
+    width: 275px;
+    height: 200px;
+    font-size: 2rem;
+    opacity: 0.8;
+    flex:1;
+    transition: 0.3s;
+    border-radius: 10px;
+  }
+
+  .button-project4:hover {
+    background-color: #4CAF50;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    opacity:1;
+    width: 280px;
+  }

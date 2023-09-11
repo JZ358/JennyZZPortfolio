@@ -1,0 +1,103 @@
+.uiux-main{
+    padding: 5%;
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgba(240, 246, 246, 0.682);
+    margin-bottom: 100px;
+}
+
+.round-border1{
+    border: 2px solid rgba(0,0,0,0.2);
+    border-radius: 5px;
+    border-style: dotted dotted solid solid;
+    margin-top: 5vh;
+    padding-bottom: 60px;
+    background-color: rgba(197, 204, 204, 0.234);
+    max-width: 1000px;
+    text-align: center;
+}
+
+.vertical-container{
+  position: relative;
+  max-height: 5rem;
+  align-self: center;
+}
+
+
+h2{
+    color: grey;
+    position: absolute;
+    font-size: 50px;
+    opacity: 0.2;
+    writing-mode: vertical-rl;
+}
+
+h3 {
+    color: #484965;
+    position: relative;
+    font-weight: normal;
+    font-size: 16px;
+    opacity: 0.6;
+    margin: auto;
+    max-width: 600px;
+    line-height: 1.8;
+    text-align: center;
+  }  
+
+h4{
+    color: #484965;
+    position: relative;
+    font-weight: 1;
+    font-size: 40px;
+    opacity: 0.6;
+    margin: auto;
+    max-width: 600px;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.uiux-body{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+h5 {
+    color: #484965;
+    position: relative;
+    font-weight: normal;
+    font-size: 20px;
+    opacity: 0.8;
+    margin: auto;
+    max-width: 600px;
+    line-height: 1.8;
+    text-align: left;
+  }  
+
+  a:link {
+    color: grey;
+    font-size: 16px;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: grey;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(175, 157, 157);
+  
+  }
+  
+  /* selected link */
+  a:active {
+    color: #abadea;
+  
+  }
+
+  ul.a {
+    list-style-type: circle;
+    font-size: 16px;
+  }
+
